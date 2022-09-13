@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* FEATURES SECTION */
+.feature-image {
+  height: 5rem;
+  width: 5rem;
+  color: #ef8172;
+  transition: color 0.5s;
+  margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; even if this is diabled the dog image will be behind the features section and for more
+  revisit the leacture or refer to flowchart of stacking order and z-index;*/
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press esction */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+.container-1 {
+  padding: 2% 10% 4%;
+}
+
+.price-box {
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1044px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 100%;
+    transform: rotate(0deg);
+  }
+}
+
+/* Call To Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10% 3%;
+}
+
+.cta-text {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 90%;
+  margin-left: 4%
+}
+
+#footer {
+  text-align: center;
+  padding: 4% 0;
+  background-color: #fff;
+}
+
+.footer-button {
+  margin: 0 0.5% 1%;
+}
